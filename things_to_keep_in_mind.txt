@@ -1,0 +1,11 @@
+1) if k*x >= a , then minimum value of x = ceil(a/k) = int((a+k-1)/k)
+2) if k*x<=a , then max value of x = floor(a/k) = int(a/k)
+3) in Case of number theory type problem, always think of O(sqrt(N)) approach.
+4) Things to mess around with: 1. Binary Search
+                               2. Two-Pointer
+                               3. DFS (or some graph related algo) if a way needs to be found
+                                  -> Can be used in grid problems
+                                  -> or to find one of the many ways
+                               4. In range queries, think of some preprocessing , can be used to make queries faster.
+                               5. Prefix/Suffix sum or something similar.
+5) If f(a,b) = g(a,b) is the condition given, try searching for values of k such that: f(a,b) = g(a,b) = k. (701-Div2-C).

@@ -1,0 +1,22 @@
+1) Contest 701-Div2 {
+    A. -> Don't use log(a)/log(b) to calculate number of diviions it would take to reach 0.
+          while loop more erro-free way.
+       -> Look at constraints , Do some math!!
+       -> And for fuck's sake if u can't solve it, MOVE ON!!!
+       -> Play with constraints
+    B. Easy Problem. Cud have got in contest time if not stuck at A. Read Editorial again and understand.
+    C. Easy problem.. lol.. fucking look at CONSTRAINTS !!! was O(sqrt(x)). Think Idiot !!
+}
+
+2) Contest Edu-104-Div2 {
+    B. Both cats A and B are moving k steps. Process from POV of cat B is complicated as its pattern is variable. Process from cat A's POV is much simpler as its path does not change. All we had to notice was cat A was colliding exactly K/((int)n/2) times.
+    C. TODO
+    D. O(sqrt(N)) trick worked fortunately. However could also be solved in O(log(n)) and O(1).
+}
+
+3) Contest Edu-104-Div2 {
+    A. Think Brute force first ! All u had to do was brute force all possible cominations (8) for As, Bs, and Cs. Cud have solved faster.
+    B. Shud have thought of using brute force on all possible configs of the corners (either occupied or not) (total 16 possible). TODO: bitmask approach
+        -> Simpler approach: shud have thought of case when a=n-1 , its better to overlap with the neighbor having more tiles painted.
+    C. TODO
+}
